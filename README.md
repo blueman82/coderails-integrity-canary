@@ -1,2 +1,5 @@
 # coderails-integrity-canary
 Temporary public test repository for Coderails integrity gate rollout
+
+Canary integrity evidence: PASS fixture
+Canary stale-head control: second head
