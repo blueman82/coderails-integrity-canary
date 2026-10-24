@@ -136,3 +136,5 @@ def report(path: str | Path, command: str, result: str) -> None:
     if result in (LEGACY_UNSIGNED, KEY_MISSING):
         print(f"eval_signing: reason={result} - suite is not signature-verified here", file=sys.stderr)
         emit(path, command, "legacy" if result == LEGACY_UNSIGNED else "degraded", result)
+
+# Canary import-path check. This branch will not merge.
