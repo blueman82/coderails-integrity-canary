@@ -308,3 +308,5 @@ def gate_pr(client: EvidenceClient, number: int, max_bytes: int, pending_ttl: in
         except Exception as post_error:
             print(f"skip: pr={number} sha={sha} reason=error_status_post_failed type={type(post_error).__name__}")
         return 1
+
+# CI-E3 canary-only page-2 protected-path test.
