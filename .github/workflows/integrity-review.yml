@@ -31,3 +31,5 @@ jobs:
         run: python3 scripts/integrity-gate/integrity_actions.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
+
+# CI-E3 canary-only protected-path test.
